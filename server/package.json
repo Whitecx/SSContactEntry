@@ -1,0 +1,19 @@
+{
+  "name": "contact_entry",
+  "version": "1.0.0",
+  "description": "Simple Contact Entry Web API",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "nodemon --experimental-modules --inspect index.mjs",
+    "test": "mocha"
+  },
+  "author": "CXBW",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mocha": "^8.2.1",
+    "nedb": "^1.8.0",
+    "nodemon": "^2.0.6"
+  }
+}
